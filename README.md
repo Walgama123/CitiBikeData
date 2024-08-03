@@ -17,22 +17,21 @@
     and made public on the Citi Bike webpage.
   </p>
   
-  <h2>Key Insights</h2>
-      
-	  <ol>
+  <h2>Key Insights</h2>      
+	<ol>
 		<li><strong>Total Rides</strong>: The total number of rides in 2023 was 338,231.</li>
 		<li><strong>Member vs. Casual</strong>: Members accounted for 80% of the total rides.</li>
-		<li><strong>Peak Months</strong>: June,Jully and Auguest were the peak months for bike usage.</li>
-		<li><strong>Peak Days</strong>: Tuesday, Wednesday, Thursday and Friday were mostly peak.</li>
+		<li><strong>Peak Months</strong>: June, July, and August were the peak months for bike usage.</li>
+		<li><strong>Peak Days</strong>: Tuesday, Wednesday, Thursday, and Friday were mostly peak.</li>
 		<li><strong>Peak Hours</strong>: 5pm to 7pm were mostly peak.</li>
-	  </ol>
+    </ol>
  
   <h2>Analysis Summary </h2>
   <!-- Best Times-->
   <h3>Peak Times </h2>
     <ol>
       <li><strong>Season</strong>:<a href="Images/RidersBySeason.png"> Sumer season is the peak season of the year.</a></li>
-      <li><strong>Months</strong>:<a href="Images/RidersByMonth.png"> June, Jully and August months are the peak months of the year.</a></li>
+      <li><strong>Months</strong>:<a href="Images/RidersByMonth.png"> June, July and August months are the peak months of the year.</a></li>
       <li><strong>Day</strong>:<a href="Images/RidersByDaysofWeek.png"> Tuesday, Wednesday and Thursday are the most peak days in the week.</a></li>
       <li><strong>Days of month</strong>:<a href="Images/RidersByDaysofMonth.png"> Almost all the days are same except weekends</a></li>
       <li><strong>Hours</strong>:<a href="Images/RidersByHoursofDay.png"> 4pm to 7pm are the most peak times of the day.</a></li>
