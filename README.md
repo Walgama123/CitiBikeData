@@ -2,7 +2,7 @@
 <h3 align="center"> See the sights. All of `em.</h4>
 
 <div align="center">
-  <img src="Images/CitiBike.png">
+  <img src="Images/readmeimage.png">
 </div>
 
 	
@@ -16,22 +16,17 @@
     on the program's utilization. Each month, bike data is collected, organized, 
     and made public on the Citi Bike webpage.
   </p>
+  
   <h2>Key Insights</h2>
-      <div class="div1" style =" width: 1000px; height: auto; display: flex; justify-content: space-around">
-        <div class="divInner1" style =" width: 200px; height: 180px; margin:5px">
-          <image src ="./Images/CitiBike.png"> </image>
-        </div>
-
-        <div class="divInner2"style =" width: 700px; height: 180px; margin:5px" >
-          <ol>
-            <li><strong>Total Rides</strong>: The total number of rides in 2023 was 338,231.</li>
-            <li><strong>Member vs. Casual</strong>: Members accounted for 80% of the total rides.</li>
-            <li><strong>Peak Months</strong>: June,Jully and Auguest were the peak months for bike usage.</li>
-            <li><strong>Peak Days</strong>: Tuesday, Wednesday, Thursday and Friday were mostly peak.</li>
-            <li><strong>Peak Hours</strong>: 5pm to 7pm were mostly peak.</li>
-          </ol>
-        </div>
-      </div>
+      
+	  <ol>
+		<li><strong>Total Rides</strong>: The total number of rides in 2023 was 338,231.</li>
+		<li><strong>Member vs. Casual</strong>: Members accounted for 80% of the total rides.</li>
+		<li><strong>Peak Months</strong>: June,Jully and Auguest were the peak months for bike usage.</li>
+		<li><strong>Peak Days</strong>: Tuesday, Wednesday, Thursday and Friday were mostly peak.</li>
+		<li><strong>Peak Hours</strong>: 5pm to 7pm were mostly peak.</li>
+	  </ol>
+ 
   <h2>Analysis Summary </h2>
   <!-- Best Times-->
   <h3>Peak Times </h2>
@@ -75,6 +70,19 @@
     <li><strong>Promote Membership</strong>: Offer discounts to convert casual users to members.</li>
     <li><strong>Escape Peak Times</strong>: Escape the peak days and peak times as much as possible.</li>
     <li><strong>Popular Placess</strong>: Check the most pupular staitons before you starts.</li>
+  </ul>
+
+  <h2>Merging and Creating Sample Data</h2>
+  <ul>
+	<li><strong>MergeCSV.ipynb</strong>:<a href="PythonScripts/MergeCSV.ipynb"> This notebooks is used to 12 months data into a single CSV file.</a></li>
+	<li><strong>ExtractSampleData.ipynb</strong>:<a href="PythonScripts/ExtractSampleData.ipynb"> This notebooks is used to extract a sample from the yearly merge data.</a></li>
+	<li><strong>Data Source</strong>:<a href="https://citibikenyc.com/system-data"> City bike data is available in.</a></li>
+	<li><strong>Select Your year</strong>:<a href="https://s3.amazonaws.com/tripdata/index.html"> Go to the historical data page.</a></li>
+	<li><strong>Unzip File/strong>: Unzip the data into the local computer folder where your jupyter notebooks are saved.</li>
+    <li><strong>Merge CSV</strong>: Open the MergeCSV.ipynb using Anaconda prompt and run all the cells</li>
+    <li><strong>Extract Sample Data</strong>: Open the ExtractSampleData.ipynb using Anaconda prompt and run all the cells</li>
+	<li><strong>Limitations</strong>: This notebook can merge only monthly data of one year. </li>
+	
   </ul>
 
 
